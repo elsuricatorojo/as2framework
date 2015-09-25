@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+
+	<automatico>animacion_alpha</automatico>
+	<tipoAnimacion>easeInQuad</tipoAnimacion>
+	<timeAnimacion>1</timeAnimacion>
+
+	
+	<elementos>
+		<elemento id="elementoA">
+			<ruta>multibanner/elementos/home01.jpg</ruta>	
+			<permanencia>6</permanencia>
+			<link>ficha.php</link>
+			<targetLink>_self</targetLink>	
+			<transicion></transicion>			
+		</elemento>		
+		<elemento id="elementoB">
+			<ruta>multibanner/elementos/home02.jpg</ruta>	
+			<permanencia>6</permanencia>
+			<link>ficha.php</link>
+			<targetLink>_self</targetLink>	
+			<transicion></transicion>			
+		</elemento>	
+	</elementos>
+</data>

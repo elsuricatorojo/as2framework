@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<item id="imagen1" pausa="2" pausaDelegada="0">
+		<titulo>Texto de la imagen 1</titulo>
+		<path>../../ESP/multibanner/imagen_1.jpg</path>
+		<clickTag target="_blank"/>
+		<ejecutar>_level0.world.reanudarCarga()</ejecutar>
+	</item>
+	<item id="anim" pausa="0" pausaDelegada="1">
+		<titulo>Texto de la animacion 1</titulo>
+		<path>../../ESP/multibanner/anim_1.swf</path>
+		<clickTag target="_blank">http://www.google.com</clickTag>
+		<ejecutar></ejecutar>
+	</item>
+	<item id="imagen2" pausa="3" pausaDelegada="0">
+		<titulo>Texto de la imagen 1</titulo>
+		<path>../../ESP/multibanner/imagen_2.jpg</path>
+		<clickTag target="_blank"/>
+		<ejecutar>_level0.testScope('imagen2')</ejecutar>
+	</item>
+</data>
